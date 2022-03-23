@@ -40,6 +40,7 @@ button {
     padding: 6px 8px;
     border-radius: 20px;
     border: none;
+    cursor: pointer;
 }
 
 .login-button {
@@ -50,28 +51,42 @@ button {
 /*--------------
      HEADER
 --------------*/
-.column {
-    padding: 20px 0 20px 0;
-    height: 70px;
+header {
+    background-color: #3161e0;
+    height: 100px;
+    line-height: 30px;
 }
-.small-column{
+
+.column {
+    padding: 40px 0 0px 0;
+    vertical-align: middle;
+    /* margin-top: 40px; */
+}
+
+.small-column {
     width: 20%;
     float: left;
-    background-color: blue;
 }
 
 .large-column {
     width: 60%;
     float: left;
-    background-color: aqua;
     text-align: center;
 }
 
 nav ul li {
     display: inline-block;
-    
+}
+
+nav ul li:hover {
+    text-decoration: underline;
 }
 
 nav ul li:not(:last-child) { 
     margin-right: 28px;
 }
+
+.button-box {
+    text-align: right;
+}
+
