@@ -33,12 +33,22 @@ header a {
     color: white;
 }
 
+.hero h1 {
+    color: white;
+    font-size: 3em;
+}
+
+.hero p {
+    color: white;
+    margin-top: 30px;
+    line-height: 26px;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
 /*--------------
      BUTTONS
 --------------*/
 button {
-    padding: 6px 8px;
-    border-radius: 20px;
     border: none;
     cursor: pointer;
 }
@@ -46,21 +56,36 @@ button {
 .login-button {
     color: black;
     background-color: white;
+    border-radius: 20px;
+    padding: 6px 8px;
 }
 
+.hero button {
+    border-radius: 40px;
+    font-size: 1em;
+    padding: 14px 24px;
+}
+
+.hero-button-download {
+    background-color: white;
+    margin-right: 20px;
+}
+
+.hero-button-browser {
+    background-color: #23272a;
+    color: white;
+}
 /*--------------
      HEADER
 --------------*/
 header {
     background-color: #3161e0;
-    height: 100px;
+
     line-height: 30px;
 }
 
 .column {
-    padding: 40px 0 0px 0;
-    vertical-align: middle;
-    /* margin-top: 40px; */
+    padding-top: 40px;
 }
 
 .small-column {
@@ -88,5 +113,26 @@ nav ul li:not(:last-child) {
 
 .button-box {
     text-align: right;
+}
+
+/*--------------
+     HEADER
+--------------*/
+.hero {
+    background-image: url(../img/jumbo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    position: relative;
+}
+
+.hero-box {
+    max-width: 600px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
