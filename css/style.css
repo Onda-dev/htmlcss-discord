@@ -6,3 +6,72 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/*--------------
+     COMMONS
+--------------*/
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/*--------------
+     FONTS
+--------------*/
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+/*--------------
+     BUTTONS
+--------------*/
+button {
+    padding: 6px 8px;
+    border-radius: 20px;
+    border: none;
+}
+
+.login-button {
+    color: black;
+    background-color: white;
+}
+
+/*--------------
+     HEADER
+--------------*/
+.column {
+    padding: 20px 0 20px 0;
+    height: 70px;
+}
+.small-column{
+    width: 20%;
+    float: left;
+    background-color: blue;
+}
+
+.large-column {
+    width: 60%;
+    float: left;
+    background-color: aqua;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    
+}
+
+nav ul li:not(:last-child) { 
+    margin-right: 28px;
+}
